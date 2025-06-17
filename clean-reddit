@@ -1,0 +1,31 @@
+! Block all subreddits and main page only access to profiles or comments
+! www.reddit.com##shreddit-app[microapp-name="feeds"]
+
+! Block reddit profiles
+! www.reddit.com##shreddit-app[microapp-name="profiles"]
+
+! Block main page r/popular and r/all subreddits
+www.reddit.com##shreddit-app[pagetype="popular"] div:has(.main-container)
+www.reddit.com##shreddit-app[pagetype="all"] div:has(.main-container)
+
+! Block distracting things on the side
+www.reddit.com###right-sidebar-container
+www.reddit.com###left-sidebar-container
+
+! Block reddit logo and get the app icon in header
+www.reddit.com##.pr-lg.flex.gap-xs.items-center.justify-start
+www.reddit.com###get-app
+
+! Block trending in search suggestions
+www.reddit.com###reddit-trending-searches-partial-container:style(display:none !important;)
+
+! Block old reddit r/popular and r/all
+old.reddit.com##.listing-page:has(.selected a[href="https://old.reddit.com/r/popular/"]) .content
+old.reddit.com##.listing-page:has(.selected a[href="https://old.reddit.com/r/all/"]) .content
+
+! Block old reddit links to distracting subreddits
+old.reddit.com##.sr-list
+old.reddit.com###sr-more-link
+
+! Block old reddit subreddit page
+! old.reddit.com##.listing-page:has(.pagename a[href="https://old.reddit.com/r/{}/"])
