@@ -1,3 +1,10 @@
+[Adblock Plus 2.0]
+! Title: Reddit clean view
+! Description: Clean up Reddit clutter
+! Homepage: https://github.com/purplesunk/filterlist
+! Version: 17 June 2025
+! Syntax: AdBlock
+
 ! Block all subreddits and main page only access to profiles or comments
 ! www.reddit.com##shreddit-app[microapp-name="feeds"]
 

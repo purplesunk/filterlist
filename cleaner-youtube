@@ -1,13 +1,11 @@
-! Block youtube home page
-www.youtube.com##ytd-browse[page-subtype="home"]
-
 [Adblock Plus 2.0]
-! Title: 📺 YouTube Clear View
+! Title: 📺 YouTube Distraction Free View
 ! Description: Clean up YouTube clutter
-! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 4 days (update frequency)
-! Version: 22 March 2025
+! Homepage: https://github.com/purplesunk/filterlist
+! Version: 17 June 2025
 ! Syntax: AdBlock
+
+! Modified version of https://github.com/yokoffing/filterlists
 
 ! Hide the text label of the dislike/share/download/report/save buttons
 ! new format June 2023
@@ -137,6 +135,8 @@ m.youtube.com##ytm-search ytm-video-with-context-renderer:has([data-style="SHORT
 ! YT Mobile - Hide the Shorts button on Channels
 m.youtube.com##[tab-title="Shorts"]
 
+! Block youtube home page
+www.youtube.com##ytd-browse[page-subtype="home"]
 
 ! Hide recommendation sidebar
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope

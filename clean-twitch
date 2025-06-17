@@ -1,3 +1,10 @@
+[Adblock Plus 2.0]
+! Title: Twitch Clear View
+! Description: Clean up Twitch clutter
+! Homepage: https://github.com/purplesunk/filterlist
+! Version: 17 June 2025
+! Syntax: AdBlock
+
 www.twitch.tv##.side-nav
 www.twitch.tv##main:has(.front-page-carousel)
 www.twitch.tv##[data-target="prime-offers-icon"]
