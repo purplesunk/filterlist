@@ -144,6 +144,10 @@ www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style
 ! Hide youtube logo
 www.youtube.com###logo
 
+! Hide distracting links in the guide
+www.youtube.com##ytd-guide-section-renderer:contains("Explore")
+www.youtube.com##ytd-guide-section-renderer:contains("More from YouTube")
+
 ! source: https://www.reddit.com/r/uBlockOrigin/comments/1bfv50f/what_is_the_difference/
 ! Video Overlay - annotations
 !||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
