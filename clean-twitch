@@ -6,5 +6,7 @@
 ! Syntax: AdBlock
 
 www.twitch.tv##.side-nav
+www.twitch.tv##.top-nav
+www.twitch.tv###twilight-sticky-footer-root
 !www.twitch.tv##main:has(.front-page-carousel)
-www.twitch.tv##[data-target="prime-offers-icon"]
+!www.twitch.tv##[data-target="prime-offers-icon"]
