@@ -5,7 +5,7 @@
 ! Version: 17 June 2025
 ! Syntax: AdBlock
 
-! Modified version of https://github.com/yokoffing/filterlists
+! Modified version of https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt
 
 ! Hide the text label of the dislike/share/download/report/save buttons
 ! new format June 2023
@@ -20,9 +20,6 @@ www.youtube.com###chat:remove()
 
 ! Hide "Shorts remixing this video" shelf in the description
 www.youtube.com##ytd-reel-shelf-renderer
-
-! Don't enter / exit fullscreen on double-click 
-! www.youtube.com##+js(aeld, dblclick)
 
 ! Hide View Products
 www.youtube.com##.ytp-suggested-action-badge-expanded
@@ -135,7 +132,7 @@ m.youtube.com##ytm-search ytm-video-with-context-renderer:has([data-style="SHORT
 ! YT Mobile - Hide the Shorts button on Channels
 m.youtube.com##[tab-title="Shorts"]
 
-! Block youtube home page
+! Hide youtube home page
 www.youtube.com##ytd-browse[page-subtype="home"]
 m.youtube.com##.tab-content[tab-title="Home"]
 
