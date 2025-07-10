@@ -137,16 +137,20 @@ m.youtube.com##[tab-title="Shorts"]
 
 ! Block youtube home page
 www.youtube.com##ytd-browse[page-subtype="home"]
+m.youtube.com##.tab-content[tab-title="Home"]
 
 ! Hide recommendation sidebar
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
-! Hide youtube logo
-www.youtube.com###logo
+! Hide Mobile recommendations
+m.youtube.com##.fullscreen-recommendations-wrapper
+m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
+m.youtube.com##.related-items-container
 
 ! Hide distracting links in the guide
-www.youtube.com##ytd-guide-section-renderer:contains("Explore")
-www.youtube.com##ytd-guide-section-renderer:contains("More from YouTube")
+!www.youtube.com##ytd-guide-section-renderer:contains("Explore")
+!www.youtube.com##ytd-guide-section-renderer:contains("More from YouTube")
+www.youtube.com##tp-yt-app-drawer
 
 ! source: https://www.reddit.com/r/uBlockOrigin/comments/1bfv50f/what_is_the_difference/
 ! Video Overlay - annotations
