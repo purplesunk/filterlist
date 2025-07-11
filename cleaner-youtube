@@ -154,3 +154,5 @@ www.youtube.com##tp-yt-app-drawer
 !||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
 ! Video Overlay - endscreen
 ||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
+! Endscreen recommendations:
+www.youtube.com##.ytp-endscreen-content
