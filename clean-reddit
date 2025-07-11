@@ -23,14 +23,18 @@ www.reddit.com###left-sidebar-container
 www.reddit.com##.pr-lg.flex.gap-xs.items-center.justify-start
 www.reddit.com###get-app
 
-! Block trending in search suggestions
+! Hide "TRENDING" search suggestions
 www.reddit.com###reddit-trending-searches-partial-container:style(display:none !important;)
+www.reddit.com###search-dropdown-results-container .text-neutral-content-weak
+
+! Styling change to make the search look a little after hiding the trending
+www.reddit.com##.border-b-sm:style(border-bottom-width: 0px !important;)
 
 ! Block old reddit r/popular and r/all
 old.reddit.com##.listing-page:has(.selected a[href="https://old.reddit.com/r/popular/"]) .content
 old.reddit.com##.listing-page:has(.selected a[href="https://old.reddit.com/r/all/"]) .content
 
-! Block old reddit links to distracting subreddits
+! Hide old reddit links to distracting subreddits
 old.reddit.com##.sr-list
 old.reddit.com###sr-more-link
 
