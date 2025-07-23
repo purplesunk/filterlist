@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: 📺 YouTube Distraction Free View
+! Title: 📺 No Youtube Recommendations
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/purplesunk/filterlist
 ! Version: 17 June 2025
@@ -149,10 +149,13 @@ m.youtube.com##.related-items-container
 !www.youtube.com##ytd-guide-section-renderer:contains("More from YouTube")
 www.youtube.com##tp-yt-app-drawer
 
-! source: https://www.reddit.com/r/uBlockOrigin/comments/1bfv50f/what_is_the_difference/
-! Video Overlay - annotations
-!||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
 ! Video Overlay - endscreen
 ||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
 ! Endscreen recommendations:
 www.youtube.com##.ytp-endscreen-content
+
+! Hide shorts in search
+www.youtube.com##ytd-search grid-shelf-view-model
+
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer

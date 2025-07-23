@@ -6,10 +6,10 @@
 ! Syntax: AdBlock
 
 ! Block all subreddits and main page only access to profiles or comments
-www.reddit.com##shreddit-app[microapp-name="feeds"]
+www.reddit.com##shreddit-app[microapp-name="feeds"] div:has(.main-container)
 
 ! Block reddit profiles
-www.reddit.com##shreddit-app[microapp-name="profiles"]
+www.reddit.com##shreddit-app[microapp-name="profiles"] div:has(.main-container)
 
 ! Block main page r/popular and r/all subreddits
 www.reddit.com##shreddit-app[pagetype="popular"] div:has(.main-container)

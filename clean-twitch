@@ -5,12 +5,12 @@
 ! Version: 17 June 2025
 ! Syntax: AdBlock
 
+!www.twitch.tv##.top-nav
 www.twitch.tv##.side-nav
-www.twitch.tv##.top-nav
 www.twitch.tv###twilight-sticky-footer-root
 
 ! Hide offline videos and clips:
 www.twitch.tv###offline-channel-main-content
 
-!www.twitch.tv##main:has(.front-page-carousel)
-!www.twitch.tv##[data-target="prime-offers-icon"]
+www.twitch.tv##main:has(.front-page-carousel)
+www.twitch.tv##[data-target="prime-offers-icon"]
