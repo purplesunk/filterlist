@@ -12,5 +12,9 @@ www.twitch.tv###twilight-sticky-footer-root
 ! Hide offline videos and clips:
 www.twitch.tv###offline-channel-main-content
 
+! Hide home page
 www.twitch.tv##main:has(.front-page-carousel)
+
+! Hide prime icon on top nav
+www.twitch.tv##.top-nav__prime
 www.twitch.tv##[data-target="prime-offers-icon"]
