@@ -1,1 +1,9 @@
+[Adblock Plus 2.0]
+! Title: purplesunk filters
+! Description: filters
+! Homepage: https://github.com/purplesunk/filterlist
+! Version: 17 June 2025
+! Syntax: AdBlock
+
 freedium.cfd##.grid
+nyaa.si##[href*="//sukebei.nyaa.si"]
