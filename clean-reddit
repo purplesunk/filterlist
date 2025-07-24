@@ -40,3 +40,6 @@ old.reddit.com###sr-more-link
 
 ! Block old reddit subreddit page
 ! old.reddit.com##.listing-page:has(.pagename a[href="https://old.reddit.com/r/{}/"])
+
+! Hide Signup Bar
+old.reddit.com##.listingsignupbar
