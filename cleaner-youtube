@@ -5,16 +5,6 @@
 ! Version: 17 June 2025
 ! Syntax: AdBlock
 
-! Modified version of https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt
-
-! Hide the text label of the dislike/share/download/report/save buttons
-! new format June 2023
-www.youtube.com###actions.ytd-watch-metadata button > div[class$="text-content"]:not(:has-text(/[\d]/))
-www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
-www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
-m.youtube.com##ytm-slim-video-action-bar-renderer button [class*="button-text-content"]:not(:has-text(/\d/))
-m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$="icon"]:style(margin-right: -6px !important; margin-left: -6px !important;)
-
 ! Hide chat window when viewing streams
 www.youtube.com###chat:remove()
 
@@ -41,13 +31,6 @@ youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
 !#endif
 !#if env_chromium
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
-!#endif
-
-! Hide horizontal scrollbar. This is only shown on Firefox (version 86 and above)
-! https://github.com/yokoffing/filterlists/pull/109
-! https://github.com/yokoffing/filterlists/pull/112
-!#if env_firefox
-www.youtube.com##ytd-app:style(--ytd-app-fullerscreen-scrollbar-width: -1px !important;)
 !#endif
 
 ! Hide Verified checkmark
@@ -149,8 +132,6 @@ m.youtube.com##.related-items-container
 !www.youtube.com##ytd-guide-section-renderer:contains("More from YouTube")
 www.youtube.com##tp-yt-app-drawer
 
-! Video Overlay - endscreen
-||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
 ! Endscreen recommendations:
 www.youtube.com##.ytp-endscreen-content
 
