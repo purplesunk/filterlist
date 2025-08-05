@@ -121,6 +121,10 @@ m.youtube.com##.tab-content[tab-title="Home"]
 
 ! Hide recommendation sidebar
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+youtube.com##.ytp-pause-overlay-container
+youtube.com##.fullscreen-recommendations-wrapper
+youtube.com##.fullscreen-recommendation
+youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 
 ! Hide Mobile recommendations
 m.youtube.com##.fullscreen-recommendations-wrapper
