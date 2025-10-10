@@ -43,3 +43,6 @@ old.reddit.com###sr-more-link
 
 ! Hide Signup Bar
 old.reddit.com##.listingsignupbar
+
+! Hide +18 Continue Button
+old.reddit.com##[name="over18"][value="yes"]
