@@ -138,6 +138,7 @@ www.youtube.com##tp-yt-app-drawer
 
 ! Endscreen recommendations:
 www.youtube.com##.ytp-endscreen-content
+www.youtube.com##.ytp-fullscreen-grid
 
 ! Hide shorts in search
 www.youtube.com##ytd-search grid-shelf-view-model
