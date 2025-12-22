@@ -6,7 +6,7 @@
 ! Syntax: AdBlock
 
 ! Block all subreddits and main page only access to profiles or comments
-www.reddit.com##shreddit-app[microapp-name="feeds"] div:has(.main-container)
+! www.reddit.com##shreddit-app[microapp-name="feeds"] div:has(.main-container)
 
 ! Same for old.reddit.com
 old.reddit.com##.listing-page:has(.selected a[class="choice"]:has-text(top)) .content
