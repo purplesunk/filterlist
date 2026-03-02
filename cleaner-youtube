@@ -7,6 +7,8 @@
 
 ! Hide chat window when viewing streams
 www.youtube.com###chat:remove()
+! This is needed so live streams take the full window width
+www.youtube.com###panels-full-bleed-container
 
 ! Hide "Shorts remixing this video" shelf in the description
 www.youtube.com##ytd-reel-shelf-renderer
@@ -139,6 +141,9 @@ www.youtube.com##tp-yt-app-drawer
 ! Endscreen recommendations:
 www.youtube.com##.ytp-endscreen-content
 www.youtube.com##.ytp-fullscreen-grid
+
+! Hide Search Bar
+www.youtube.com###masthead
 
 ! Hide shorts in search
 www.youtube.com##ytd-search grid-shelf-view-model
