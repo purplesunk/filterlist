@@ -81,7 +81,7 @@ m.youtube.com##ytm-search ytm-video-with-context-renderer:has([data-style="SHORT
 m.youtube.com##[tab-title="Shorts"]
 
 ! Hide youtube home page
-www.youtube.com##ytd-browse[page-subtype="home"]
+www.youtube.com##.ytd-page-manager[page-subtype="home"]
 m.youtube.com##.tab-content[tab-title="Home"]
 
 ! Hide recommendation sidebar
@@ -94,15 +94,15 @@ youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 ! Hide Mobile recommendations
 m.youtube.com##.related-items-container
 
-! Hide distracting links in the guide
-www.youtube.com##tp-yt-app-drawer
-
 ! Endscreen recommendations:
 www.youtube.com##.ytp-endscreen-content
 www.youtube.com##.ytp-fullscreen-grid
 
 ! Hide Search Bar
 www.youtube.com###masthead
+
+! Hide distracting links in the guide
+www.youtube.com###guide
 
 ! Hide shorts in search
 www.youtube.com##ytd-search grid-shelf-view-model
