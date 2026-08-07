@@ -1,0 +1,20 @@
+[Adblock Plus 2.0]
+! Title: 📺 No Recommended Youtube
+! Description: Hide Recommendations in Youtube
+! Homepage: https://github.com/purplesunk/filterlist
+! Version: 06 Aug 2025
+! Syntax: AdBlock
+
+! Hide recommendation sidebar
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+youtube.com##.ytp-pause-overlay-container
+youtube.com##.fullscreen-recommendations-wrapper
+youtube.com##.fullscreen-recommendation
+youtube.com##.fullscreen-watch-next-entrypoint-wrapper
+
+! Hide Mobile recommendations
+m.youtube.com##.related-items-container
+
+! Endscreen recommendations:
+www.youtube.com##.ytp-endscreen-content
+www.youtube.com##.ytp-fullscreen-grid
