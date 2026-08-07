@@ -38,3 +38,8 @@ m.youtube.com##[tab-title="Shorts"]
 
 ! Hide shorts in search
 www.youtube.com##ytd-search grid-shelf-view-model
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer
+
+! Hide shorts in mobile search
+m.youtube.com##.ytGridShelfViewModelHost
