@@ -1,17 +1,14 @@
 [Adblock Plus 2.0]
-! Title: 📺 No Youtube Recommendations
-! Description: Hide youtube recommendations
+! Title: 📺 Clean Youtube Maybe
+! Description: Hide some youtube UI elements
 ! Homepage: https://github.com/purplesunk/filterlist
-! Version: 04 March 2026
+! Version: 07 Aug 2026
 ! Syntax: AdBlock
 
 ! Hide chat window when viewing streams
 www.youtube.com###chat:remove()
 ! This is needed so live streams take the full window width
 www.youtube.com###panels-full-bleed-container
-
-! Hide "Shorts remixing this video" shelf in the description
-www.youtube.com##ytd-reel-shelf-renderer
 
 ! Hide View Products
 www.youtube.com##.ytp-suggested-action-badge-expanded
@@ -48,13 +45,3 @@ m.youtube.com##ytm-video-description-header-renderer button-view-model a[href^="
 
 ! Donation
 youtube.com###donation-shelf
-
-! Hide youtube home page
-www.youtube.com##.ytd-page-manager[page-subtype="home"]
-m.youtube.com##.tab-content[tab-title="Home"]
-
-! Hide Search Bar
-www.youtube.com###masthead
-
-! Hide distracting links in the guide
-www.youtube.com###guide

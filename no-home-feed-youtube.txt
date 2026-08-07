@@ -1,0 +1,10 @@
+[Adblock Plus 2.0]
+! Title: 📺 No Home Feed Youtube
+! Description: Hide youtube home feed
+! Homepage: https://github.com/purplesunk/filterlist
+! Version: 07 Aug 2026
+! Syntax: AdBlock
+
+! Hide youtube home page
+www.youtube.com##.ytd-page-manager[page-subtype="home"]
+m.youtube.com##.tab-content[tab-title="Home"]
